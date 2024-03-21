@@ -1,11 +1,11 @@
-#include <cmath>
-#include <iostream>
-#include <vector>
+#include<iostream>
 
 using namespace std;
 
-int main() {
-  vector<int> nums = {1,2,3,4};
-  nums[4] = 5;
-  cout << nums[4] << endl;
+int main(){
+  int x;
+  cout << "Enter your age" << endl;
+  cin >> x;
+  cout << "age is " << x << endl;
+  return 0;
 }
